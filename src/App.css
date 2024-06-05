@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 500px;
+  aspect-ratio: 1.5;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.list {
+  list-style-type: none;
+  background-image: linear-gradient(to right, purple, white);
+  font-size: 20px;
+  position: relative;
+  width: 98%;
+  text-align: start;
+  color: antiquewhite;
+  margin-bottom: 2px;
+  padding: 5px;
+
+}
+
+li {
+  border: 1px solid;
+  /* text-align: start; */
+
+  width: 300px;
+}
+
+.deleteIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.editIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  right: 40px;
+}
+
+.textInput {
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+button {
+  color: white;
+  background-color: purple;
+  border-radius: 5px;
+  padding: 3px 10px;
+
+}
+
+ul {
+  border: 1px solid white;
+  padding: 0px;
+
+}
+
+p {
+  border: 1px solid black;
+}
